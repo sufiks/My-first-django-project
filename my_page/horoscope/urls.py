@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    path('<int:my_zodac>/', views.inf_for_zodiac_by_number, name="horoscope_name"),
-    path('<str:my_zodac>/', views.inf_for_zodiac),
+    path('<int:my_zodac>', views.inf_for_zodiac_by_number),
+    path('<str:my_zodac>', views.inf_for_zodiac,name='horoscope_name'),
 
 ]

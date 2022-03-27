@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b498a6e3-079b-4939-9235-0e5fccff0bc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/geometry/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_page/week_days/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_django_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_django_projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_page/horoscope/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_page/my_page/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/my_page/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/horoscope/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +74,7 @@
       <updated>1648312864410</updated>
       <workItem from="1648312868618" duration="375000" />
       <workItem from="1648354856616" duration="2766000" />
-      <workItem from="1648360444741" duration="17015000" />
+      <workItem from="1648360444741" duration="19239000" />
     </task>
     <servers />
   </component>

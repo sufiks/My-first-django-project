@@ -44,6 +44,20 @@ def inf_for_zodiac_by_number(request, my_zodac: int):
     if my_zodac > len(zodiacs):
         return HttpResponseNotFound(f'неверный знак зодиака - {my_zodac}')
     name_zodiacs = zodiacs[my_zodac-1]
-    redirect_url = reverse("horoscope_name", args=[name_zodiacs, ])
-    return HttpResponseRedirect(redirect_url)
+    return HttpResponseRedirect(reverse("horoscope_name", args=[name_zodiacs, ]))
+
+class Types_elements():
+
+        def types_elements(request,self):
+            type = list(zodiac_dict)
+            li_elements = ''
+            for sign in zodiacs:
+                redirect_path = reverse("horoscope_name", args=[sign])
+                li_elements += f"<li> <a href='{redirect_path}'>{sign.title()} </a> </li>"
+            responce = f"""
+                <ol>
+                    {li_elements}
+                </ol>
+                """
+            return HttpResponse()
 

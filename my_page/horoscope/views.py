@@ -19,18 +19,81 @@ zodiac_dict = {
     'pisces': 'Рыбы - двенадцатый знак зодиака, планеты Юпитер (с 20 февраля по 20 марта).',
 }
 
-def index(request):
-    zodiacs = list(zodiac_dict)
+
+type_dict = {
+    'fire': ['aries', 'leo', 'sagittarius'],
+    'earth': ['taurus', 'virgo', 'capricorn'],
+    'air': ['gemini', 'libra', 'aquarius'],
+    'water': ['cancer', 'scorpio', 'pisces'],
+
+}
+
+def inf_for_types(request, type: str):
+    descrip=type_dict.get(type)
+    return HttpResponse(descrip)
+
+def index_type(request):
+    types = list(type_dict)
     li_elements = ''
-    for sign in zodiacs:
-        redirect_path = reverse("horoscope_name", args=[sign])
-        li_elements += f"<li> <a href='{redirect_path}'>{sign.title()} </a> </li>"
+    for sign in types:
+        redirect_type = reverse("type_name", args=[sign])
+        li_elements += f"<li> <a href='{redirect_type}'>{sign} </a> </li>"
     responce = f"""
     <ol>
         {li_elements}
     </ol>
     """
     return HttpResponse(responce)
+
+
+def earth(request):
+    earth = f"""
+                <ol>
+                    <li> <a href='earth'> {'taurus'} </a> </li>
+                    <li> <a href='air'> {'virgo'} </a> </li>
+                    <li> <a href='water'> {'capricorn'} </a> </li>
+                </ol>
+            """
+    return HttpResponse(earth)
+
+def air(request):
+    air = f"""
+                 <ol>
+                     <li> <a href='earth'> {'gemini'} </a> </li>
+                     <li> <a href='air'> {'libra'} </a> </li>
+                     <li> <a href='water'> {'aquarius'} </a> </li>                     
+                 </ol>
+                 """
+    return HttpResponse(air)
+
+def water(request):
+    water = f"""
+                 <ol>
+                     <li> <a href='earth'> {'cancer'} </a> </li>
+                     <li> <a href='air'> {'scorpio'} </a> </li>
+                     <li> <a href='air'> {'pisces'} </a> </li>                     
+                 </ol>
+                 """
+    return HttpResponse(water)
+
+
+def fire(request):
+    fire = f"""
+                    <ol>
+                         <li> <a href='earth'> {'aries'} </a> </li>
+                         <li> <a href='air'> {'leo'} </a> </li>
+                         <li> <a href='air'> {'sagittarius'} </a> </li>
+                     </ol>
+            """
+    return HttpResponse(fire)
+
+def index(request):
+    zodiacs = list(zodiac_dict)
+    #f"<li> <a href='{redirect_path}'>{sign.title()} </a> </li>"
+    context = {
+        'zodiacs': zodiacs
+    }
+    return render(request, 'horoscope/index.html', context = context)
 
 def inf_for_zodiac(request, my_zodac: str):
     return render(request,'horoscope/info_zodiac.html')
@@ -44,18 +107,5 @@ def inf_for_zodiac_by_number(request, my_zodac: int):
     name_zodiacs = zodiacs[my_zodac-1]
     return HttpResponseRedirect(reverse("horoscope_name", args=[name_zodiacs, ]))
 
-class Types_elements():
 
-        def types_elements(request,self):
-            type = list(zodiac_dict)
-            li_elements = ''
-            for sign in zodiacs:
-                redirect_path = reverse("horoscope_name", args=[sign])
-                li_elements += f"<li> <a href='{redirect_path}'>{sign.title()} </a> </li>"
-            responce = f"""
-                <ol>
-                    {li_elements}
-                </ol>
-                """
-            return HttpResponse()
 

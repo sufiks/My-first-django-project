@@ -96,7 +96,12 @@ def index(request):
     return render(request, 'horoscope/index.html', context = context)
 
 def inf_for_zodiac(request, my_zodac: str):
-    return render(request,'horoscope/info_zodiac.html')
+    description = zodiac_dict.get(my_zodac)
+    data={
+        'description' : description,
+        'sign': my_zodac,
+    }
+    return render(request,'horoscope/info_zodiac.html',context=data)
 
 
 

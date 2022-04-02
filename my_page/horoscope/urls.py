@@ -2,7 +2,7 @@ from django.urls import path
 from . import views as zodiac
 
 urlpatterns = [
-    path('', zodiac.index),
+    path('', zodiac.index, name='horoscope_index'),
     path('<int:my_zodac>', zodiac.inf_for_zodiac_by_number),
     path('<str:my_zodac>', zodiac.inf_for_zodiac,name='horoscope_name'),
     path('type/', zodiac.index_type),

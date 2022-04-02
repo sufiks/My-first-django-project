@@ -1,11 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Гороскоп</title>
-</head>
-<body>
-    <h1>Приложение гороскоп</h1>
-   <h2>'aries': 'Овен - первый знак зодиака, планета Марс (с 21 марта по 20 апреля).'</h2>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block css_additional%}
+<link rel="stylesheet" href="{% static 'horoscope/css/info.css' %}">
+{% endblock %}
+
+{% block title %}
+Гороскоп для {{sign|upper}}
+{% endblock %}
+
+
+
+{% block content%}
+
+{% include 'includes/navbar.html' %}
+
+    {% if description is None%}
+        <h2> Неправильный знак зодиака - {{sign}}</h2>
+    {% else %}
+        <h2>{{description|capfirst|safe}}</h2>
+    {% endif %}
+
+{% endblock %}

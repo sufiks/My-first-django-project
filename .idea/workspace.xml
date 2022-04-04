@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b498a6e3-079b-4939-9235-0e5fccff0bc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/migrations/0002_book_is_best_selling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/migrations/0003_book_author.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/book_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/bookshop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/bookshop/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/bookshop/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/bookshop/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/bookshop/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/migrations/0002_movie_budget_movie_year.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/templates/movie_app/all_movies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/templates/movie_app/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/templates/movie_app/one_movie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_project/movie_project/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_project/movie_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/movie_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +49,7 @@
       <recent name="C:\Users\Сергей\Documents\GitHub\My-first-django-project\movie_project\movie_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Movie">
+  <component name="RunManager" selected="Python.oop">
     <configuration name="Movie" type="PythonConfigurationType" factoryName="Python">
       <module name="my_django_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +139,7 @@
       <workItem from="1648354856616" duration="2766000" />
       <workItem from="1648360444741" duration="23267000" />
       <workItem from="1648704938510" duration="40595000" />
+      <workItem from="1649067775138" duration="2003000" />
     </task>
     <servers />
   </component>
@@ -196,8 +161,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/My_first_django_project$Movie.coverage" NAME="Movie Coverage Results" MODIFIED="1649062518364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/movie_project" />
+    <SUITE FILE_PATH="coverage/My_first_django_project$Movie.coverage" NAME="Movie Coverage Results" MODIFIED="1649070458215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/movie_project" />
     <SUITE FILE_PATH="coverage/My_first_django_project$My_page.coverage" NAME="My_page Coverage Results" MODIFIED="1648822502020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_page" />
-    <SUITE FILE_PATH="coverage/My_first_django_project$oop.coverage" NAME="oop Coverage Results" MODIFIED="1648999128527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/My_first_django_project$oop.coverage" NAME="oop Coverage Results" MODIFIED="1649074821154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

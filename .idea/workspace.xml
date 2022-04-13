@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b498a6e3-079b-4939-9235-0e5fccff0bc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_django_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_django_projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_project/movie_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/movie_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_project/movie_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/movie_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_project/movie_app/templates/movie_app/all_movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/movie_app/templates/movie_app/all_movies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_project/movie_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/movie_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_project/movie_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_project/movie_project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +159,7 @@
       <workItem from="1649829516952" duration="947000" />
       <workItem from="1649833399838" duration="321000" />
       <workItem from="1649833737903" duration="4910000" />
-      <workItem from="1649838824151" duration="8718000" />
+      <workItem from="1649838824151" duration="14393000" />
     </task>
     <servers />
   </component>
